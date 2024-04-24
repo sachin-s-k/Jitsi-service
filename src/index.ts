@@ -1,7 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import jwt from 'jsonwebtoken'
-
 import cors from 'cors'
 import { consumerConnect } from "./external-libraries/kafkaConsumer";
 dotenv.config();
